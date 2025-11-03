@@ -1,5 +1,6 @@
 public class Maim {
     public static void main(String[] args) {
-        System.out.println("dnwodwiewed");
+        System.out.println("Hello World");
     }
 }
+
