@@ -205,15 +205,10 @@ public class halamanLogin extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void tombolLupaPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tombolLupaPasswordActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tombolLupaPasswordActionPerformed
-
     private void tombolLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tombolLoginActionPerformed
         // TODO add your handling code here:
         String email = emailInput.getText();
-        String password = passwordInput.getText();
+        String password = new String(passwordInput.getPassword());
 
         if (dataPengguna.email == null || dataPengguna.password == null) {
             javax.swing.JOptionPane.showMessageDialog(this, "Belum ada akun terdaftar. Silakan 'DAFTAR' terlebih dahulu.");
@@ -240,6 +235,7 @@ public class halamanLogin extends javax.swing.JFrame {
     private void passwordInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordInputActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_passwordInputActionPerformed
+    
     public static void main(String args[]) {
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
