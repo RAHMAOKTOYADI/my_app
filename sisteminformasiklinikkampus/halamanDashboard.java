@@ -8,7 +8,7 @@ package com.sisteminformasiklinikkampus;
  *
  * @author YADI
  */
-public class halamanDasboard extends javax.swing.JFrame {
+public class halamanDashboard extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(halamanDasboard.class.getName());
     public halamanDasboard() {
