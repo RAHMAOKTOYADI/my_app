@@ -22,7 +22,6 @@ package com.sisteminformasiklinikkampus;
  */
 public class halamanRegistrasi extends javax.swing.JFrame {
     
-    // ✅ TAMBAHAN: Logger declaration
     private static final java.util.logging.Logger logger = 
         java.util.logging.Logger.getLogger(halamanRegistrasi.class.getName());
     
@@ -41,9 +40,9 @@ public class halamanRegistrasi extends javax.swing.JFrame {
         pilihanFakultas = new javax.swing.JComboBox<>();
         email = new javax.swing.JLabel();
         emailInput = new javax.swing.JTextField();
-        passwordInput = new javax.swing.JPasswordField(); // ✅ UBAH: JTextField → JPasswordField
+        passwordInput = new javax.swing.JPasswordField(); 
         jLabel4 = new javax.swing.JLabel();
-        konfirmasiPasswordInput = new javax.swing.JPasswordField(); // ✅ UBAH: JTextField → JPasswordField
+        konfirmasiPasswordInput = new javax.swing.JPasswordField(); 
         konfirmasiPassword = new javax.swing.JLabel();
         tombolDaftar = new javax.swing.JButton();
 
@@ -211,7 +210,6 @@ public class halamanRegistrasi extends javax.swing.JFrame {
         String nim = nimInput.getText();
         String fakultasValue = (String) pilihanFakultas.getSelectedItem(); 
         String emailValue = emailInput.getText();
-        // ✅ UBAH: getText() → getPassword()
         String pass = new String(passwordInput.getPassword());
         String konfirPass = new String(konfirmasiPasswordInput.getPassword());
 
@@ -277,9 +275,9 @@ public class halamanRegistrasi extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel konfirmasiPassword;
-    private javax.swing.JPasswordField konfirmasiPasswordInput; // ✅ UBAH: JTextField → JPasswordField
+    private javax.swing.JPasswordField konfirmasiPasswordInput; 
     private javax.swing.JTextField nimInput;
-    private javax.swing.JPasswordField passwordInput; // ✅ UBAH: JTextField → JPasswordField
+    private javax.swing.JPasswordField passwordInput; 
     private javax.swing.JComboBox<String> pilihanFakultas;
     private javax.swing.JButton tombolDaftar;
     // End of variables declaration//GEN-END:variables
