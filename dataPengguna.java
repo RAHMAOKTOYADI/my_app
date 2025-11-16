@@ -4,5 +4,6 @@
  */
 package tugas.sisteminformasiklinikkampusaplikasi;
 public class dataPengguna {
-    
+    //isi bagian ini an yang aku infoin barusan
 }
+
