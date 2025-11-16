@@ -21,7 +21,17 @@ public class profil extends javax.swing.JFrame {
         } else {
             jLabel7.setText("-"); // Nilai default jika NIM kosong
         }
-        
+        if (dataPengguna.fakultas != null) {
+            jLabel8.setText(dataPengguna.fakultas);
+        } else {
+            jLabel8.setText("-"); // Nilai default jika fakultas kosong
+        }
+
+        if (dataPengguna.email != null) {
+            jLabel9.setText(dataPengguna.email);
+        } else {
+            jLabel9.setText("-"); // Nilai default jika email kosong
+        }
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
