@@ -4,12 +4,12 @@
  */
 package tugas.sisteminformasiklinikkampusaplikasi;
 public class dataPengguna {
-    //isi bagian ini an yang aku infoin barusan
     public static String nama;
     public static String nim;
     public static String fakultas;
     public static String email;
     public static String password;
 }
+
 
 
