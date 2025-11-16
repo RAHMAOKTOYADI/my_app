@@ -172,8 +172,8 @@ public class profil extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
        halamanHome home = new halamanHome ();
-home.setVisible(true);
-this.dispose();
+       home.setVisible(true);
+       this.dispose();
        
     }//GEN-LAST:event_jButton1ActionPerformed
 
