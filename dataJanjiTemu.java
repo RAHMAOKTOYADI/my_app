@@ -4,5 +4,10 @@
  */
 package tugas.sisteminformasiklinikkampusaplikasi;
 public class dataJanjiTemu {
-    
+    public static String[] dokter = new String[10];
+    public static String[] tanggal = new String[10];
+    public static String[] keluhan = new String[10];
+    public static int jumlahJanjiTemu = 0; 
+    public static boolean[] statusSelesai = new boolean[10];
 }
+
