@@ -9,7 +9,7 @@ public class profil extends javax.swing.JFrame {
     initComponents();
     this.setLocationRelativeTo(null);  
     
-    //isi construktor nya yaa gesss code nya ku kirim di wa
+
         if (dataPengguna.nama != null) {
             jLabel6.setText(dataPengguna.nama);
         } else {
