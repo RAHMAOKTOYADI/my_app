@@ -10,6 +10,17 @@ public class profil extends javax.swing.JFrame {
     this.setLocationRelativeTo(null);  
     
     //isi construktor nya yaa gesss code nya ku kirim di wa
+        if (dataPengguna.nama != null) {
+            jLabel6.setText(dataPengguna.nama);
+        } else {
+            jLabel6.setText("-"); // Nilai default jika nama kosong
+        }
+
+        if (dataPengguna.nim != null) {
+            jLabel7.setText(dataPengguna.nim);
+        } else {
+            jLabel7.setText("-"); // Nilai default jika NIM kosong
+        }
         
     }
     @SuppressWarnings("unchecked")
